@@ -1,5 +1,4 @@
-
-#from spinup.algos.pytorch.ddpg.ddpg import ddpg as ddpg_pytorch #because mpi4py
+from spinup.algos.pytorch.ddpg.ddpg import ddpg as ddpg_pytorch
 from spinup.algos.pytorch.ppo.ppo import ppo as ppo_pytorch
 from spinup.algos.pytorch.sac.sac import sac as sac_pytorch
 from spinup.algos.pytorch.td3.td3 import td3 as td3_pytorch
